@@ -10,11 +10,3 @@ def homepage(request):
     }
 
     return render(request, 'index.html', context)
-
-# def homepage(request):
-#     profile = Profile.objects.all()
-#     context = {
-#         'profile' : profile
-#     }
-
-#     return render(request, 'index.html',context)
